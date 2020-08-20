@@ -30,7 +30,7 @@ export default {
             'Client-ID YIj0Lfbzob21o3ZPtDUTCUMecUMHM8vjlzN978Wr5I0',
         },
       });
-      //.then(this.imgs);
+      // .then(this.imgs);
 
       // console.log(res.data.results);
 
@@ -38,9 +38,9 @@ export default {
       this.imgSrc = mapImgs;
 
     },
-    imgs(res) {
-      console.log(123, res);
-    },
+    // imgs(res) {
+    //   console.log(123, res);
+    // },
   },
   created() {
     this.getData();
